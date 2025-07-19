@@ -60,7 +60,7 @@
 - [A Smooth Representation of Belief over SO(3) for Deep Rotation Learning with Uncertainty](https://www.roboticsproceedings.org/rss16/p007.html)
 - [SE(3)-Equivariant Robot Learning and Control: A Tutorial Survey_Joohwan Seo](https://arxiv.org/abs/2503.09829)
 - [Learning with 3D rotations, a hitchhiker's guide to SO(3)](https://arxiv.org/abs/2404.11735)
-- [A geometric take on motion manifold learning from demonstration, Yonghyeon Lee](https://www.youtube.com/watch?v=I0445IET0FY)
+- [A geometric take on motion manifold learning from demonstration, Yonghyeon Lee](https://drive.google.com/file/d/1hMcotedOibgBHxpxAzvjJViZmGJd4vMV/view) - [Talk](https://www.youtube.com/watch?v=I0445IET0FY)
 
 # Blogs
 - https://mohitd.github.io/lie-groups-part-1.html
