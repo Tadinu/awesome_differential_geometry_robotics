@@ -68,19 +68,31 @@
 - https://towardsdatascience.com/its-only-natural-an-excessively-deep-dive-into-natural-gradient-optimization-75d464b89dbb
 - https://gebob19.github.io/natural-gradient
 
-## A.8 Geometric control
+## A.8 Geometric optimization
+- [Differential Geometric Approach to Optimization Problems and Its Applications to Robotics, 2023, Journal of the Robotics Society of Japan, № 6, p. 530-535](https://ouci.dntb.gov.ua/en/works/4zB2k5V4)
+- [An introduction to Optimization on smooth manifolds, Nicolas Boumal](https://www.nicolasboumal.net/book) - [Slides](https://simons.berkeley.edu/sites/default/files/docs/17892/gmos21-bcnicolasboumalslides.pdf)
+- [Optimization Algorithms on Matrix Manifolds, P.-A. Absil , R. Mahony, Rodolphe Sepulchre](https://press.princeton.edu/absil?srsltid=AfmBOoqomHcP-zvlsdaJ3Bvj3ZFlcSXInFwW2ssnHyuPe9mWLuBm3FJ9)
+- [Riemannian Optimization and Its Applications, Hiroyuki Sato](https://link.springer.com/book/10.1007/978-3-030-62391-3)
+- [Manopt.jl: Optimisation on Riemannian Manifolds, Ronny Bergmann, JuliaCon 2022](https://www.youtube.com/watch?v=dJz1klEutRY)
+- [Introduction to Riemannian Optimization, Benyamin Ghojogh](https://bghojogh.github.io/assets/files/engg-6140-w23/ENGG6140_Riemannian.pdf)
+- [A tutorial on SE(3) transformation parameterizations and on-manifold optimization, José Luis Blanco-Claraco](https://arxiv.org/abs/2103.15980)
+- [Minimization on the Lie Group SO(3) and Related Manifolds, Camillo J. Taylor and David J. Kriegman](https://www.cis.upenn.edu/~cjtaylor/PUBLICATIONS/pdfs/TaylorTR94b.pdf)
+- [The SO(3) and SE(3) Lie Algebras of Rigid Body Rotations and Motions and their Application to Discrete Integration, Gradient Descent Optimization, and State Estimation, Eduardo Gallo](https://arxiv.org/abs/2205.12572)
+
+## A.9 Geometric control
 - [Introduction to geometric control_Sachkov](https://arxiv.org/abs/1903.00211) - [Book](https://link.springer.com/book/10.1007/978-3-031-02070-4)
 - [An Introduction to Aspects of Geometric Control Theory, Bloch](https://link.springer.com/chapter/10.1007/978-1-4939-3017-3_4)
 - [A short introduction to geometric control theory_Simic](https://arxiv.org/abs/2404.00059)
 - [Geometric Control of Mechanical Systems_Bullo_Lewis](https://motion.me.ucsb.edu/book-gcms)
-- [Optimal Control on Riemannian Manifolds, Andras Kupcsik, IROS'22](https://www.youtube.com/watch?v=_oZQhT4xJBc)
+- [Optimal Control on Riemannian Manifolds, Andras Kupcsik, IROS'22 Tutorial](https://www.youtube.com/watch?v=_oZQhT4xJBc)
 - [Introduction to geometric control theory_KTH](https://www.math.kth.se/optsyst/grundutbildning/kurser/SF2842/intro.html) Not DG
 
-## A.9 Manifold Learning
+## A.10 Manifold Learning
 - [A Smooth Representation of Belief over SO(3) for Deep Rotation Learning with Uncertainty](https://www.roboticsproceedings.org/rss16/p007.html)
 - [SE(3)-Equivariant Robot Learning and Control: A Tutorial Survey_Joohwan Seo](https://arxiv.org/abs/2503.09829)
 - [Learning with 3D rotations, a hitchhiker's guide to SO(3)](https://arxiv.org/abs/2404.11735)
 - [A geometric take on motion manifold learning from demonstration, Yonghyeon Lee](https://drive.google.com/file/d/1hMcotedOibgBHxpxAzvjJViZmGJd4vMV/view) - [Talk](https://www.youtube.com/watch?v=I0445IET0FY)
+- [Projective Manifold Gradient Layer for Deep Rotation Regression](https://arxiv.org/abs/2110.11657)
 
 # B. BLOGS
 - https://mohitd.github.io/lie-groups-part-1.html
@@ -118,6 +130,7 @@
 
 ## E.2 Lie-based ML
 - [Contact-Rich SE(3)-Equivariant Robot Manipulation Task Learning via Geometric Impedance Control](https://arxiv.org/abs/2211.07945)
+- [Physics-guided Learning-based Adaptive Control on the SE(3) Manifold](https://arxiv.org/abs/2201.04339)
 - [RiEMann: Near Real-Time SE(3)-Equivariant Robot Manipulation without Point Cloud Segmentation](https://openreview.net/forum?id=eJHy0AF5TO)
 - [EquAct: An SE(3)-Equivariant Multi-Task Transformer for Open-Loop Robotic Manipulation](https://arxiv.org/abs/2505.21351)
 - [EquiGraspFlow: SE(3)-Equivariant 6-DoF Grasp Pose Generative Flows](https://openreview.net/forum?id=5lSkn5v4LK)
@@ -162,16 +175,10 @@
 
 ## E.5 Geometric Optimization
 ### E.5.1 Optimization on Manifold
-- [Differential Geometric Approach to Optimization Problems and Its Applications to Robotics, 2023, Journal of the Robotics Society of Japan, № 6, p. 530-535](https://ouci.dntb.gov.ua/en/works/4zB2k5V4)
-- [An introduction to Optimization on smooth manifolds, Nicolas Boumal](https://www.nicolasboumal.net/book) - [Slides](https://simons.berkeley.edu/sites/default/files/docs/17892/gmos21-bcnicolasboumalslides.pdf)
-- [Optimization Algorithms on Matrix Manifolds, P.-A. Absil , R. Mahony, Rodolphe Sepulchre](https://press.princeton.edu/absil?srsltid=AfmBOoqomHcP-zvlsdaJ3Bvj3ZFlcSXInFwW2ssnHyuPe9mWLuBm3FJ9)
-- [Riemannian Optimization and Its Applications, Hiroyuki Sato](https://link.springer.com/book/10.1007/978-3-030-62391-3)
-- [Manopt.jl: Optimisation on Riemannian Manifolds, Ronny Bergmann, JuliaCon 2022](https://www.youtube.com/watch?v=dJz1klEutRY)
 - [Learning to Optimize on SPD Manifolds, Zhi Gao et al](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gao_Learning_to_Optimize_on_SPD_Manifolds_CVPR_2020_paper.pdf)
-- [Introduction to Riemannian Optimization, Benyamin Ghojogh](https://bghojogh.github.io/assets/files/engg-6140-w23/ENGG6140_Riemannian.pdf)
 - [Understanding the Geometry of Workspace Obstacles in Motion Optimization, Nathan Ratliff](https://argmin.lis.tu-berlin.de/papers/15-ratliff-ICRA.pdf)
-- [A tutorial on SE(3) transformation parameterizations and on-manifold optimization, José Luis Blanco-Claraco](https://arxiv.org/abs/2103.15980)
 - [Optimization Methods on Riemannian Manifolds and Their Application to Shape Space, Wolfgang Ring and Benedikt Wirth](https://doi.org/10.1137/11082885)
+- [Reduction by Symmetry and Optimal Control with Broken Symmetries on Riemannian Manifolds, Goodman, Colombo](https://arxiv.org/abs/2401.01129)
 - https://agustinus.kristia.de/blog/optimization-riemannian-manifolds
 - https://andbloch.github.io/Stochastic-Gradient-Descent-on-Riemannian-Manifolds
 - https://docs.yaoquantum.org/dev/generated/examples/8.riemannian-gradient-flow/index.html
@@ -190,8 +197,12 @@
 - [Geometric Formulation of Unified Force-Impedance Control on SE(3) for Robotic Manipulators](https://arxiv.org/abs/2504.17080)
 - [A Comparison Between Lie Group- and Lie Algebra- Based Potential Functions for Geometric Impedance Control](https://arxiv.org/abs/2401.13190)
 - [Contact-Rich SE(3)-Equivariant Robot Manipulation Task Learning via Geometric Impedance Control](https://ieeexplore.ieee.org/document/10373109)
-- [Optimal Control on Riemannian Manifolds, Andras Kupcsik, IROS'22 Tutorial](https://youtu.be/_oZQhT4xJBc?si=oC0s7LYgb9VpXY9i)
 - [A contact covariant approach to optimal control with applications to sub-Riemannian geometry, Michał Jóźwikowski, Witold Respondek](https://arxiv.org/abs/1509.01628) - Geometry of the Pontryagin Maximum Principle [Talk 1](https://www.youtube.com/watch?v=V04N9X3NxYA) - [Talk 2](https://www.youtube.com/watch?v=jghdRK2IaU8)
+- [Optimal Potential Shaping on SE(3) via Neural ODEs on Lie Groups, Wotte et al](https://arxiv.org/abs/2401.15107)
+- [Adaptive Control of SE(3) Hamiltonian Dynamics with Learned Disturbance Features, Duong et al](https://arxiv.org/abs/2109.09974)
+
+### E.6.1 Geometric MPC
+- [MPC on manifolds with an application to the control of spacecraft attitude on SO(3), Uroš Kalabić et al](https://arxiv.org/abs/1509.08567)
 
 # F. REPOS
 ## F.1 Optimization on Manifold
@@ -281,9 +292,10 @@
 - https://github.com/master/tensorflow-riemopt
 - https://github.com/Hideki105/riemannian-optimization
 - https://github.com/SaitejaUtpala/rieoptax
+- https://github.com/Gabe-YHLee/RiemGeomCurves
+- https://github.com/jychen18/RPMG
 - https://github.com/changliu00/Riem-SVGD
 - https://github.com/hiroyuki-kasai/RSOpt
-- https://github.com/Gabe-YHLee/RiemGeomCurves
 
 ## F.5 Finsler
 - https://github.com/tud-amr/fabrics
