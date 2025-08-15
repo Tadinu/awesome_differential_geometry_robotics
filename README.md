@@ -45,10 +45,13 @@
 - [A Math Cookbook for Robot Manipulation, Calinon](https://rcfs.ch/doc/rcfs.pdf)
 - [State Estimation for Robotics_Barfoot](http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser24.pdf)
 - [Geometry of interaction: Port-based and energy-aware robotics, Stefano Stramigioli](https://www.youtube.com/watch?v=YkZ2EcWgTok)
+- [A tutorial on SE(3) transformation parameterizations and on-manifold optimization, José Luis Blanco-Claraco](https://arxiv.org/abs/2103.15980)
 
 ## A.4 Riemannian geometry
 - [Riemannian geometry as a unifying theory for robot motion learning and control, Jaquier, Asfour](https://arxiv.org/abs/2209.15539)
 - [A Riemannian Take on Distance Fields and Geodesic Flows in Robotics, Li, Qiu, Calinon](https://arxiv.org/abs/2412.05197)
+- [Pulling back symmetric Riemannian geometry for data analysis, Willem Diepeveen](https://arxiv.org/abs/2403.06612) - [Github](https://github.com/wdiepeveen/Pulling-back-symmetric-Riemannian-geometry-for-data-analysis)
+- [Unraveling the Single Tangent Space Fallacy: An Analysis and Clarification for Applying Riemannian Geometry in Robot Learning, Jaquier, Rozo, Tamim Asfour](https://arxiv.org/abs/2310.07902) - [Good practices to use geometric methods, Leonel Rozo](https://www.youtube.com/watch?v=ERGxtvDv6EM)
 
 ## A.5 Bayesian
 - [Geometry-aware Bayesian Optimization in Robotics using Riemannian Matérn Kernels](https://arxiv.org/abs/2111.01460) - [MaternGaBO](https://github.com/NoemieJaquier/MaternGaBO) - [GaBOtorch](https://github.com/NoemieJaquier/GaBOtorch)
@@ -113,11 +116,14 @@
 - https://www.researchgate.net/publication/356455577_Note_on_geometric_algebras_and_control_problems_with_SO3-symmetries
 
 ## A.11 Manifold Learning
+- [Manifold learning: what, how, and why, Meilă, Zhang](https://arxiv.org/abs/2311.03757)
+- [Beyond Euclid: An Illustrated Guide to Modern Machine Learning with Geometric, Topological, and Algebraic Structures, Papillon et al](https://arxiv.org/abs/2407.09468)
+- [Introduction to Geometric Learning in Python with Geomstats, Miolane et al](https://inria.hal.science/hal-02908006)
+- [Riemannian Geometry in Machine Learning, Isay Katsman](https://ecommons.cornell.edu/items/29cd4be2-341e-431e-9d02-c7721701ce2b)
 - [A Smooth Representation of Belief over SO(3) for Deep Rotation Learning with Uncertainty](https://www.roboticsproceedings.org/rss16/p007.html)
 - [SE(3)-Equivariant Robot Learning and Control: A Tutorial Survey_Joohwan Seo](https://arxiv.org/abs/2503.09829)
 - [Learning with 3D rotations, a hitchhiker's guide to SO(3)](https://arxiv.org/abs/2404.11735)
 - [A geometric take on motion manifold learning from demonstration, Yonghyeon Lee](https://drive.google.com/file/d/1hMcotedOibgBHxpxAzvjJViZmGJd4vMV/view) - [Talk](https://www.youtube.com/watch?v=I0445IET0FY)
-- [Projective Manifold Gradient Layer for Deep Rotation Regression](https://arxiv.org/abs/2110.11657)
 
 # B. BLOGS
 - https://mohitd.github.io/lie-groups-part-1.html
@@ -229,7 +235,13 @@
 ### E.6.1 Geometric MPC
 - [MPC on manifolds with an application to the control of spacecraft attitude on SO(3), Uroš Kalabić et al](https://arxiv.org/abs/1509.08567)
 
+## E.7 Manifold learning
+- [Projective Manifold Gradient Layer for Deep Rotation Regression](https://arxiv.org/abs/2110.11657)
+- [Riemann2: Learning Riemannian Submanifolds from Riemannian Data](https://arxiv.org/abs/2503.05540)
+
 # F. REPOS
+- https://github.com/david-dunson/GeodesicDistance
+
 ## F.1 Optimization on Manifold
 - https://github.com/pymanopt/pymanopt
 - https://github.com/JuliaManifolds/Manopt.jl
@@ -274,6 +286,7 @@
 - https://github.com/Danfoa/MorphoSymm
 
 ## F.3 ML
+- https://github.com/wildart/ManifoldLearning.jl
 - https://github.com/GitZH-Chen/Awesome-Riemannian-Deep-Learning
 - https://github.com/patnicolas/geometriclearning
 - https://github.com/HeegerGao/RiEMann
@@ -333,9 +346,11 @@
 - https://github.com/adubredu/MuJoCo.jl
 - https://github.com/adubredu/KinodynamicFabrics.jl
 
-## F.6 Fisher–Rao metric/Natural Gradient
-- https://github.com/geomstats/geomstats
+## F.6 Information Geometry - Fisher–Rao metric/Natural Gradient
+- https://github.com/geomstats/geomstats/tree/main/geomstats/information_geometry
+- https://github.com/cranmer/play/tree/master/manifoldLearning
 - https://github.com/patnicolas/geometriclearning/tree/main/python/geometry/information_geometry
+- https://github.com/Noeloikeau/information_geometry
 - https://github.com/HANDSOMEJACKANDY/improved-empirical-fisher
 - https://github.com/muellerjohannes/geometry-natural-policy-gradients
 - https://github.com/Abdoulaye-Koroko/natural-gradients
