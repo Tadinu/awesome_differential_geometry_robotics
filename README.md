@@ -172,6 +172,8 @@
 - [OrbitGrasp: SE(3)-Equivariant Grasp Learning](https://openreview.net/forum?id=clqzoCrulY)
 - [Towards Feasible Dynamic Grasping: Leveraging Gaussian Process Distance Field, SE(3) Equivariance, and Riemannian Mixture Models](https://arxiv.org/abs/2311.02576)
 - [SE(3)-DiffusionFields: Learning smooth cost functions for joint grasp and motion optimization through diffusion](https://arxiv.org/abs/2209.03855)
+- [Leveraging SE(3) Equivariance for Self-Supervised Category-Level Object Pose Estimation](https://github.com/dragonlong/equi-pose)
+- [Geometry-aware RL for Manipulation of Varying Shapes and Deformable Objects](https://github.com/thobotics/geometry_rl)
 
 ## E.3 RMP
 - https://docs.omniverse.nvidia.com/isaacsim/latest/concepts/motion_generation/rmpflow.html
