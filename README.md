@@ -378,6 +378,7 @@
 - https://github.com/junggon/gear
 - https://github.com/jgerstmayr/EXUDYN/blob/master/main/pythonDev/exudyn/lieGroupBasics.py
 - https://github.com/ami-iit/lie-group-controllers
+- https://github.com/StanfordASL/Adaptive-Control-Oriented-Meta-Learning
 - https://github.com/vkotaru/nonlinear_controls/blob/master/src/SO3_control.cpp
 - https://github.com/UMich-CURLY/Lie-MPC-AMVs
 - https://github.com/coin-or/ADOL-C/blob/master/ADOL-C/examples/additional_examples/lie/GantryCrane.cpp
