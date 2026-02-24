@@ -181,6 +181,7 @@
 - [Viacheslav Borovitskiy](https://vab.im/papers)
 - [Manifold learning: what, how, and why, Meilă, Zhang](https://arxiv.org/abs/2311.03757)
 - [Beyond Euclid: An Illustrated Guide to Modern Machine Learning with Geometric, Topological, and Algebraic Structures, Papillon et al](https://arxiv.org/abs/2407.09468)
+- [Deep Regression on Manifolds: A 3D Rotation Case Study](https://arxiv.org/abs/2103.16317)
 - [Introduction to Geometric Learning in Python with Geomstats, Miolane et al](https://inria.hal.science/hal-02908006)
 - [Riemannian Geometry in Machine Learning, Isay Katsman](https://ecommons.cornell.edu/items/29cd4be2-341e-431e-9d02-c7721701ce2b)
 - [A Smooth Representation of Belief over SO(3) for Deep Rotation Learning with Uncertainty](https://www.roboticsproceedings.org/rss16/p007.html)
